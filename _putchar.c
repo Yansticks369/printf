@@ -15,12 +15,3 @@ int _putchar(char c)
 
 	return (ret);
 }
-
-int main(void)
-{
-	int k;
-
-	for (k = 48; k <= 57; k++)
-		_putchar(k);
-	return (0);
-}

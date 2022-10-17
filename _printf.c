@@ -64,3 +64,12 @@ void print_buffer(char buffer[], int *buff_ind)
     
     *buff_ind = 0;
 }
+
+int main(void)
+{
+	int r;
+
+	r = _printf("55");
+	printf("%d", r);
+	return (0);
+}
